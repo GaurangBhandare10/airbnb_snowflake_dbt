@@ -1,0 +1,13 @@
+models:
+  - name: bronze_listings
+    # Config indicated by + and applies to all files under models/example/
+    config:
+      materialized: table
+  - name: bronze_hosts
+    # Config indicated by + and applies to all files under models/example/
+    config:
+      materialized: table
+  - name: bronze_bookings
+    # Config indicated by + and applies to all files under models/example/
+    config:
+      materialized: table
